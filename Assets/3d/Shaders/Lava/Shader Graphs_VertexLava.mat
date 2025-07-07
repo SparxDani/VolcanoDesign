@@ -12,22 +12,31 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - _SPECULAR_SETUP
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 77f11dfa4bfbcc2448eb61d0ae907b7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureEmission:
+        m_Texture: {fileID: 2800000, guid: 0db457165eaeca64296609983ef5c105, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureMap:
-        m_Texture: {fileID: 2800000, guid: fb1b6be572e163149bcd220701443108, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Texture: {fileID: 2800000, guid: 3f7d28ff1e1fcd34fbe849bde2953d15, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
@@ -43,26 +52,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 1
-    - _AlphaToMask: 1
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 1
     - _Cull: 0
     - _DstBlend: 0
+    - _EmissionPower: 1.84
+    - _FresnelPower: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WaveSpeed: 1
-    - _WaveStrenght: 0.1
+    - _Transparency: 1
+    - _WaveSpeed: 0.25
+    - _WaveStrenght: 0.125
     - _WorkflowMode: 0
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 23.968628, g: 23.968628, b: 23.968628, a: 1}
+    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorEmission: {r: 1.9056606, g: 1.3753116, b: 1.5974473, a: 1}
+    - _FresnelColor: {r: 23.96863, g: 0, b: 1.9973897, a: 1}
+    - _LavaNormalSpeed: {r: 0.025, g: -0.025, b: 0, a: 0}
+    - _LavaScale: {r: 3, g: 3, b: 0, a: 0}
+    - _LavaSpeed: {r: 0.025, g: -0.025, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &810667294482610987
 MonoBehaviour:
