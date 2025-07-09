@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Material #46
-  m_Shader: {fileID: -6465566751694194690, guid: 4973e7c05b919984c97c2af372411e31, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 4973e7c05b919984c97c2af372411e31,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -28,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AOTexture:
-        m_Texture: {fileID: 2800000, guid: 3f7d28ff1e1fcd34fbe849bde2953d15, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -56,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeatTexture:
-        m_Texture: {fileID: 2800000, guid: 3e882f8757375724a86c4510335fcdc0, type: 3}
+        m_Texture: {fileID: 2800000, guid: f230acc873d7d9b49aa03d3d234a88dc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -64,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: fb1b6be572e163149bcd220701443108, type: 3}
+        m_Texture: {fileID: 2800000, guid: 42dbe55803e365c488862d6ece587e13, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -72,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 77f11dfa4bfbcc2448eb61d0ae907b7c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 125f6d8973a1dc54b9bcff6e8bb93f7e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -162,7 +163,6 @@ Material:
     - _TimeControl_1: {r: 0.1, g: 0.1, b: 1, a: 1}
     - _sPEEDsCALE2V: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &2200885871130753983
 MonoBehaviour:
   m_ObjectHideFlags: 11
