@@ -70,10 +70,10 @@ Material:
     - _Surface: 0
     - _Transparency: 0
     - _TransparencyMask: 0
-    - _VoronoiAgitation: 0.21
+    - _VoronoiAgitation: 5.25
     - _VoronoiDensity: 30
-    - _VoronoiPower: 0.25
-    - _WaveSpeed: 3
+    - _VoronoiPower: 1
+    - _WaveSpeed: 5.02
     - _WaveStrenght: 0.25
     - _WorkflowMode: 0
     - _ZTest: 4
